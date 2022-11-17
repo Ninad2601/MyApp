@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyAppWeb.Models;
+using MyApp.Models;
 
-namespace MyAppWeb.Data
+namespace MyApp.DataAccessLayer
 {
     /*This Class is used for registring the ConnectionString In appsetting*/
     public class ApplicationDbContext : DbContext
@@ -11,5 +11,6 @@ namespace MyAppWeb.Data
 
         }
         public DbSet<Category>Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
