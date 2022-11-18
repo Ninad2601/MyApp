@@ -1,5 +1,0 @@
-Make Changes in Appsetting.json file here in connection string accordingly as per your system & Db name ...Then you are good to go
-
- "ConnectionStrings": {
-    "DefaultConnection": "Server=DESKTOP-Q4OODA6\\SQLEXPRESS;Database=MyAppWebDB;Trusted_Connection=True;MultipleActiveResultSets=True;encrypt=false"
-  }
